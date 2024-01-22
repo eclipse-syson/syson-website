@@ -1,0 +1,29 @@
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous" defer></script>
+
+<script src="{{  site.baseurl/common_assets/js/wow.min.js | relative_url }}" defer></script>
+<script src="{{  site.baseurl/common_assets/js/main.js | relative_url }}" defer></script>
+<script src="{{  site.baseurl/common_assets/js/magnific-popup.min.js | relative_url }}" defer></script>
+<script src="{{  site.baseurl/common_assets/js/magnific-popup.video.js | relative_url }}" defer></script>
+<!-- Call wow function -->
+<script>
+        jQuery(document).ready(function(){
+            "use strict";
+            new WOW().init();
+            jQuery('.smooth-scroll').scrollingTo();
+
+            var url = window.location;
+            // Will only work if string in href matches with location
+            jQuery('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+
+            // Will also work for relative and absolute hrefs
+            jQuery('ul.nav a').filter(function() {
+                return this.href == url;
+            }).parent().addClass('active');
+
+            jQuery(".nav a").on("click", function(){
+                jQuery(".nav").find(".active").removeClass("active");
+                jQuery(this).parent().addClass("active");
+            });
+        });
+</script>

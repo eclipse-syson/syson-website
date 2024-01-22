@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-md-5 {{ include.txt_order }} wow fadeInLeft" data-wow-delay=".1s">
+        <h3>{{ include.title }}</h3>
+        {{ include.desc }}
+        <p><a href="{{ include.lnk_href }}" target="_{{ include.lnk_target }}">{{ include.lnk_txt }}  <i class="{{ include.lnk_icon }}" aria-hidden="true"></i></a></p>
+    </div>
+    <div class="col-md-7 text-center {{ include.iframe_order }} wow fadeInUp" data-wow-delay=".2s">
+        <iframe class="shadow popup-youtube" width="{{ include.iframe_width }}" height="{{ include.iframe_height }}" src="{{ include.iframe_src }}?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+</div>

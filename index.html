@@ -1,12 +1,223 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-</head>
-	
-<body>
-	<div>
-		SysON Website
-	</div>
-</body>
-</html>
+---
+layout: syson_default
+title: SysON | Home
+---
+
+<section id="intro" class="">
+    <div class="container">
+        <div class="row align-items-end">
+            {% include section_intro.html
+                title="The nextgen sysml modeling tool" 
+                desc="Eclipse SysON is an open-source and web-based modeling tool for editing SysMLv2 models."                
+                
+                href_1="https://obeo-syson.com/projects"
+                btn_txt_1="Get Started"
+                target_1="self"
+
+                href_2="https://github.com/eclipse-syson/syson"      
+                btn_txt_2="Source Code"
+                target_2="self"      
+            
+                img_href=""
+                img_target="self"
+                image_src="images/screenshots/syson-overview.png"           
+                img_alt="Some text"  
+            %}
+        </div>
+    </div>
+</section>
+
+<section id="" class="bg_lightest_grey text-center">
+    <div class="container">
+        <div class="row">
+            {% include block_cols.html
+                col="4"
+                icon_name="far fa-check-circle"
+                icon_color="txt_indigo"
+                title="Standard Compliant" 
+                desc="SysON aims at providing an implementation of the OMG’s specification SysMLv2: language concepts, REST API, and interoperability textual format"
+            %}
+            {% include block_cols.html
+                col="4"
+                icon_name="fas fa-cloud"
+                icon_color="txt_indigo"
+                title="Web-Based" 
+                desc="SysON showcases graphical, form-based and tabular structured editors that can be used from a web browser, without any specific installation on user's desktop"
+            %}
+            {% include block_cols.html
+                col="4"
+                icon_name="far fa-lock-open-alt"
+                icon_color="txt_indigo"
+                title="Open-Source" 
+                desc="At the heart of the Eclipse community, SysON aims to catalyze industrial collaboration, accelerate innovation, and foster the adoption of SysMLv2"
+            %}
+        </div>
+    </div>
+</section>
+
+<section id="why" class="bg_indigo">
+    <div class="container">
+        {% include block_heading.html
+            title="Why SysON"                
+        %}
+        <div class="row">
+            {% include block_cols.html
+                col="6"
+                icon_name=""
+                icon_color=""
+                title="" 
+                desc="SysML was created in 2005 as a standard for systems engineering to elevate the role of models as primary tools for communication and documentation.<br>With system complexity continuing to escalate exponentially, and Digital Engineering emerging as a pivotal pillar to address an ever-challenging world, SysMLv2 has been specified as the next-generation systems modeling language to improve precision, expressiveness, and usability."
+            %}
+            {% include block_cols.html
+                col="6"
+                icon_name=""
+                icon_color=""
+                title="" 
+                desc="SysON’s objective is to provide System Engineers with a super easy access to this new standard, at minimal cost and great ease of use, with the guarantee of interoperability with other open-source MBSE tools notably Capella and Papyrus.<br><b>This will be achieved through three main means: the support of the SysMLv2 standard, the use of state-of-the-art web technologies, and an open-source approach.</b>"
+            %}
+        </div>
+    </div>
+</section>
+
+<section id="features" class="text-center">
+    <div class="container">
+        {% include block_heading.html
+            title="Features"                
+            sub_title=""
+            desc=""
+        %}
+        <div class="row">
+            {% include block_cols.html
+                col="4"
+                icon_name="fas fa-tasks"
+                icon_color="txt_indigo"
+                title="General View" 
+                desc="The General View is a graphical representation that enables to display any members of a SysMLv2 model as a graph of nodes and edges."
+            %}
+            {% include block_cols.html
+                col="4"
+                icon_name="fas fa-tasks"
+                icon_color="txt_indigo"
+                title="Textual Import/Export" 
+                desc="SysMLv2 defines a textual notation that is an additional view on the model. It allows different users and tools to exchange the content of models in a standard and human-readable format.
+                "
+            %}
+            {% include block_cols.html
+                col="4"
+                icon_name="fas fa-tasks"
+                icon_color="txt_indigo"
+                title="Model Libraries" 
+                desc="Model libraries are an integral part of the SysMLv2 standard for facilitating the reuse and the composition of system models between users.  It is natively supported in SysON."
+            %}
+        </div>
+        <div class="row">
+            {% include block_cols.html
+                col="4"
+                icon_name="fas fa-tasks"
+                icon_color="txt_indigo"
+                title="Interconnection View" 
+                desc="The Interconnection View is a graphical representation on which you can see how parts, that are modular units of the systems, interact with each others through ports."
+            %}
+            {% include block_cols.html
+                col="4"
+                icon_name="fas fa-tasks"
+                icon_color="txt_indigo"
+                title="Capella Interoperability" 
+                desc="SysON aims at facilitating systems engineers to seamlessly work with both SysMLv2 and <a href='https://www.google.com/url?q=https://mbse-capella.org/&sa=D&source=editors&ust=1705672466295885&usg=AOvVaw1bVbykgCb28DWvuRlNgBLv'>Capella</a>. Exchange of architecture models with Capella will be natively supported in SysON."
+            %}
+        </div>
+    </div>
+</section>
+
+<section id="roadmap" class="bg_lightest_grey text-center">
+    <div class="container">
+        {% include block_heading.html
+            title="Roadmap"                
+            sub_title=""
+            desc="The project team works in an iterative mode to deliver a new version every 8 weeks"
+        %}
+        <div class="row">
+            {% include block_cols.html
+                col="4"
+                icon_name="fas fa-tasks"
+                icon_color="txt_indigo"
+                title="2023.12" 
+                desc="<ul><li>Initial Contribution by Obeo and CEA-List.</li><li>Project and continuous integration setup.</li></ul>"
+            %}
+            {% include block_cols.html
+                col="4"
+                icon_name="fas fa-tasks"
+                icon_color="txt_indigo"
+                title="2024.05" 
+                desc="<ul><li>Demonstration of basic System Modeling</li><li>Demonstration of Capella interoperability</li></ul>"
+            %}
+            {% include block_cols.html
+                col="4"
+                icon_name="fas fa-tasks"
+                icon_color="txt_indigo"
+                title="2024.11" 
+                desc="<ul><li>Compliance with OMG’s specification (concepts, APIs, textual format)</li><li>Early Adopters Program ready for industry professionals</li><li></li></ul>"
+            %}
+        </div>
+    </div>
+</section>
+
+<section id="support" class="text-center">
+    <div class="container">
+        {% include block_heading.html
+            title="Need Support?"                
+            sub_title=""
+            desc=""
+        %}
+
+    <div class="row">
+        {% include block_cols.html
+            col="4"
+            icon_name="far fa-file-alt"
+            icon_color="txt_indigo"
+            title="Documentation" 
+            desc="Learn how to use SysON, thanks to online complete user guides and reference manuals"
+            href="resources.html"
+            link_txt="Online Documentation"
+            href_icon="fas fa-arrow-alt-circle-right"
+        %}
+        {% include block_cols.html
+            col="4"
+            icon_name="far fa-comments"
+            icon_color="txt_indigo"
+            title="Discussion" 
+            desc="Learn how to use SysON, thanks to online complete user guides and reference manuals"
+            href="https://github.com/eclipse-syson/syson/discussions"
+            link_txt="Learn more"
+            href_icon="fas fa-arrow-alt-circle-right"
+        %}
+        {% include block_cols.html
+            col="4"
+            icon_name="far fa-life-ring"
+            icon_color="txt_indigo"
+            title="Professional support" 
+            desc="Obeo provides training, expertise, custom development and support plans"
+            href="https://www.obeosoft.com/en/contact"
+            target="_blank"
+            link_txt="Contact Obeo"
+            href_icon="fas fa-arrow-alt-circle-right"
+        %}
+    </div>
+    </div>
+</section>
+<section id="leads" class="text-center">
+    <div class="container">
+        {% include block_heading.html
+            title="Project Lead"                
+        %}
+        <div class="row align-items-center">
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
+                <p><a href="https://www.obeosoft.com" title="Logo Obeo" target="_blank"><img src="{{  site.baseurl }}/common_assets/images/logos/logo_obeo.png"></a></p>
+            </div>
+            <div class="col-md-4 offset-md-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
+                <p><a href="https://list.cea.fr" title="Logo CEA-list" target="_blank"><img src="{{  site.baseurl }}/images/logos/logo_cea_list.png"></a></p>
+            </div>
+        </div>
+    </div>       
+</div>
+</section>

@@ -1,0 +1,26 @@
+<div class="col-md-5 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <h1>{{ include.title }}</h1>
+    <p>{{ include.desc }}</p>
+    <p>
+        {% if include.href_1 %}
+        <a href="{{ include.href_1 }}" class="btn btn-default span-right wow fadeInUp" data-wow-delay=".6s" target="_{{ include.target_1 }}">
+            {{ include.btn_txt_1 }}
+        </a>
+        {% else %}
+        <a class="d-none"></a>
+        {% endif %}
+        {% if include.href_2 %}
+        <a href="{{ include.href_2 }}" class="btn btn-primary wow fadeInUp" data-wow-delay=".6s" target="_{{ include.target_2 }}">
+            {{ include.btn_txt_2 }}
+        </a>
+        {% else %}
+        <a class="d-none"></a>
+        {% endif %}
+    </p>                                
+</div>
+    
+<div class="col-md-7 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+    <p>
+        <iframe class="shadow popup-youtube" width="{{ include.iframe_width }}" height="{{ include.iframe_height }}" src="{{ include.iframe_src }}?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe></p>
+    </p>                                
+</div>

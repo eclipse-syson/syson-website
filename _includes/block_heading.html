@@ -1,0 +1,19 @@
+<h2 class="title wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".2s">{{ include.title }}</h2> 
+{% if include.sub_title %}
+<h3 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay=".3s">{{ include.sub_title }}</h3>
+{% else %}
+<h3 class="d-none"></h3>
+{% endif %}
+
+{% if include.desc %}
+<p class="wow fadeInDown" data-wow-duration="700ms" data-w ow-delay=".5s">{{ include.desc }}</p>
+{% else %}
+<p class="d-none"></p>
+{% endif %}
+
+{% if include.img_src %}
+<p class="wow fadeInDown" data-wow-duration="800ms" data-w ow-delay=".6s"><img src="{{ include.img_src }}" class="{{ include.img_class }}" alt="{{ include.img_title }}"></p>
+{% else %}
+<p class="d-none"></p>
+{% endif %}
+
