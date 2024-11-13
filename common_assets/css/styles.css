@@ -163,8 +163,8 @@ section {
   -webkit-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
   padding: 13px 0;
-  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #dedede;
 }
 #top-bar.animated-header {
