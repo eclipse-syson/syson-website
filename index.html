@@ -12,8 +12,8 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
                 desc="Edit SysML v2 models with Eclipse SysON, an open-source and web-based MBSE modeling tool."
 
 
-                href_1="https://github.com/eclipse-syson/syson"
-                btn_txt_1="Source Code"
+                href_1="https://doc.mbse-syson.org/syson/v2024.11.0/installation-guide/index.html"
+                btn_txt_1="Get Started"
                 target_1="self"
 
                 href_2="#community"
@@ -63,7 +63,7 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
 <section id="why" class="bg_indigo text-center">
     <div class="container">
         {% include block_heading.html
-            title="Why"
+            title="Why SysON?"
         %}
         <div class="row text-left">
             {% include block_cols_text.html
@@ -74,22 +74,6 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
                 col="6"
                 desc="SysON’s objective is to provide System Engineers with super easy access to this new standard, at minimal cost and great ease of use, with the guarantee of interoperability with other open-source MBSE tools notably Capella and Papyrus.<br><br><b>This will be achieved through three means: the support of the SysML 2.0 standard, the use of state-of-the-art web technologies, and an open-source approach.</b>"
             %}
-        </div>
-    </div>
-</section>
-
-<section id="podcast" class="bg_lightest_grey text-center">
-    <div class="container">
-        {% include block_heading.html
-            title="Podcast"
-        %}
-        <div class="text-center">
-            <p>In this episode of the famous <a href="https://mbse-podcast.rocks/">MBSE Podcast</a>, watch Jérémie Tatibouet and Axel Richard explaining what is SysON, and how it aims to support system modeling.</p>
-            <p>They highlight the challenges they're facing, and outline the potential impact of SysON on the future of Model-Based Systems Engineering (MBSE).</p>
-            <p>&nbsp;</p>
-            <p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/GcRFW0YfFEI?si=_dReMGm3-F7wJSaP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </p>
         </div>
     </div>
 </section>
@@ -144,7 +128,70 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
     </div>
 </section>
 
-<section id="roadmap" class="bg_lightest_grey text-center">
+<section id="resources" class="bg_indigo text-center">
+    <div class="container">
+        {% include block_heading.html
+            title="Resources"
+            sub_title=""
+            desc=""
+        %}
+
+		<div class="row">
+			<div class="col-md-6 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                <iframe style="margin:10px" class="shadow" width="530" height="298" src="https://www.youtube.com/embed/p8qcFOu1ats?fs=1&amp;loop=1&amp;autohide=1&amp;theme=light&amp;color=white" frameborder="0" allowfullscreen=""></iframe>
+			</div>
+			<div class="col-md-6 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+				<iframe style="margin:10px" class="shadow" width="530" height="298" src="https://www.youtube.com/embed/GcRFW0YfFEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+
+		<div class="row">
+			{% include block_cols.html
+				col="3"
+				icon_name="fa fa-youtube-play"
+				icon_color="txt_white"
+				title="Videos"
+				desc=""
+				href="https://www.youtube.com/@SysON-y7j"
+				link_txt="Youtube channel "
+				href_icon="fas fa-arrow-alt-circle-right"
+			%}
+			{% include block_cols.html
+				col="3"
+				icon_name="far fa-newspaper"
+				icon_color="txt_white"
+				title="Articles"
+				desc=""
+				href="https://blog.obeosoft.com/tags/syson"
+				target="_blank"
+				link_txt="SysON blog posts "
+				href_icon="fas fa-arrow-alt-circle-right"
+			%}
+			{% include block_cols.html
+				col="3"
+				icon_name="fa fa-picture-o"
+				icon_color="txt_white"
+				title="Presentations"
+				desc=""
+				href="presentations.html"
+				link_txt="Slides about SysON "
+				href_icon="fas fa-arrow-alt-circle-right"
+			%}
+			{% include block_cols.html
+				col="3"
+				icon_name="far fa-file-alt"
+				icon_color="txt_white"
+				title="Documentation"
+				desc=""
+				href="https://doc.mbse-syson.org/"
+				link_txt="SysON documentation "
+				href_icon="fas fa-arrow-alt-circle-right"
+			%}
+        </div>
+    </div>
+</section>
+
+<section id="roadmap" class="text-center">
     <div class="container">
         {% include block_heading.html
             title="Roadmap"
@@ -174,7 +221,7 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
                 desc="Complying with the OMG SysML V2 specification, including providing a REST API and ensuring interoperability with the textual format."
             %}
             <div class="col-md-12 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                <a href="https://github.com/eclipse-syson/syson/blob/main/CHANGELOG.adoc" class="btn btn-default span-right wow fadeInUp" data-wow-delay=".6s" target="_self">
+                <a href="https://doc.mbse-syson.org/syson/main/user-manual/release-notes/release-notes.html" class="btn btn-default span-right wow fadeInUp" data-wow-delay=".6s" target="_self">
                     Read the Changelog
                 </a>
             </div>
@@ -191,91 +238,61 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
             desc=""
         %}
 
-    <div class="row">
-        {% include block_cols.html
-            col="3"
-            icon_name="fa fa-youtube-play"
-            icon_color="txt_white"
-            title="Videos"
-            desc=""
-            href="https://www.youtube.com/@SysON-y7j"
-            link_txt="Youtube Channel "
-            href_icon="fas fa-arrow-alt-circle-right"
-        %}
-        {% include block_cols.html
-            col="3"
-            icon_name="far fa-newspaper"
-            icon_color="txt_white"
-            title="Articles"
-            desc=""
-            href="https://blog.obeosoft.com/tags/syson"
-            target="_blank"
-            link_txt="Obeo blog "
-            href_icon="fas fa-arrow-alt-circle-right"
-        %}
-        {% include block_cols.html
-            col="3"
-            icon_name="fa fa-picture-o"
-            icon_color="txt_white"
-            title="Presentations"
-            desc=""
-            href="presentations.html"
-            link_txt="Slides about SysON "
-            href_icon="fas fa-arrow-alt-circle-right"
-        %}
-        {% include block_cols.html
-            col="3"
-            icon_name="far fa-file-alt"
-            icon_color="txt_white"
-            title="Documentation"
-            desc=""
-            href="https://doc.mbse-syson.org/"
-            link_txt="SysON documentation "
-            href_icon="fas fa-arrow-alt-circle-right"
-        %}
-        </div>
-        <div class="row">
-        {% include block_cols.html
-            col="3"
-            icon_name="far fa-comments"
-            icon_color="txt_white"
-            title="Discussion"
-            desc=""
-            href="https://github.com/eclipse-syson/syson/discussions"
-            link_txt="Contact SysON dev team "
-            href_icon="fas fa-arrow-alt-circle-right"
-        %}
-        {% include block_cols.html
-            col="3"
-            icon_name="fa fa-linkedin-square"
-            icon_color="txt_white"
-            title="LinkedIn"
-            desc=""
-            href="https://www.linkedin.com/in/syson-mbse-tool/"
-            link_txt="Join SysON community "
-            href_icon="fas fa-arrow-alt-circle-right"
-        %}
-        {% include block_cols.html
-            col="3"
-            icon_name="fa fa-paper-plane"
-            icon_color="txt_white"
-            title="Mailing List"
-            desc=""
-            href="https://www.obeosoft.com/en/syson-mailing-list"
-            link_txt="Receive news by Obeo"
-            href_icon="fas fa-arrow-alt-circle-right"
-        %}
-        {% include block_cols.html
-            col="3"
-            icon_name="far fa-user"
-            icon_color="txt_white"
-            title="Contact us"
-            desc=""
-            href="https://www.obeosoft.com/en/syson"
-            target="_blank"
-            link_txt="Let's discuss the project "
-            href_icon="fas fa-arrow-alt-circle-right"
-        %}
+		<div class="row">
+        	<div class="col-md-6 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+        		<h4>Stay tuned!</h4>
+       			<div class="row">
+
+                    {% include block_cols.html
+                        col="4 offset-md-2"
+                        icon_name="fa fa-linkedin-square"
+                        icon_color="txt_white"
+                        title=""
+                        desc="Connect to<br>SysON community"
+                        href="https://www.linkedin.com/in/syson-mbse-tool/"
+                        link_txt="LinkedIn "
+                        href_icon="fas fa-arrow-alt-circle-right"
+                    %}
+                    {% include block_cols.html
+                        col="4"
+                        icon_name="fa fa-paper-plane"
+                        icon_color="txt_white"
+                        title=""
+                        desc="Receive news<br>about SysON"
+                        href="https://www.obeosoft.com/en/syson-mailing-list"
+                        link_txt="Mailing List "
+                        href_icon="fas fa-arrow-alt-circle-right"
+                    %}
+       			</div>
+       		</div>
+        	<div class="col-md-6 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+        		<h4>Engage with us!</h4>
+       			<div class="row">
+                    {% include block_cols.html
+                        col="4 offset-md-2"
+                        icon_name="far fa-comments"
+                        icon_color="txt_white"
+                        title=""
+                        desc="Contact SysON<br>developement team"
+                        href="https://github.com/eclipse-syson/syson/discussions"
+                        link_txt="Support "
+                        href_icon="fas fa-arrow-alt-circle-right"
+                    %}
+                    {% include block_cols.html
+                        col="4"
+                        icon_name="far fa-user"
+                        icon_color="txt_white"
+                        title=""
+                        desc="Let's discuss<br>your project"
+                        href="https://www.obeosoft.com/en/syson"
+                        target="_blank"
+                        link_txt="Open Innovation "
+                        href_icon="fas fa-arrow-alt-circle-right"
+                    %}
+       			</div>
+       		</div>
+       	</div>
+       
     </div>
     </div>
 </section>
@@ -286,7 +303,7 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
         %}
         <div class="row align-items-center">
             <div class="col-md-6 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                <p><a href="https://www.obeosoft.com" title="Logo Obeo" target="_blank"><img src="{{  site.baseurl }}/common_assets/images/logos/logo_obeo.png" alt="Obeo logo"></a></p>
+                <p><a href="https://www.obeosoft.com" title="Logo Obeo" target="_blank"><img src="{{  site.baseurl }}/common_assets/images/logos/logo_obeo.svg" width="240" height="62" alt="Obeo logo"></a></p>
             </div>
             <div class="col-md-6 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
                 <p><a href="https://list.cea.fr" title="Logo CEA-list" target="_blank"><img src="{{  site.baseurl }}/images/logos/logo_cea_list.png" alt="CEA logo"></a></p>
