@@ -99,7 +99,7 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
     </div>
 </section>
 
-<section id="features" class="text-center">
+<section id="features" class="bg_lightest_grey text-center">
     <div class="container">
         {% include block_heading.html
             title="Features"
@@ -144,6 +144,29 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
                 icon_color="txt_indigo"
                 title="Capella Interoperability"
                 desc="SysON aims at facilitating systems engineers to seamlessly work with both SysML v2 and <a href='https://mbse-capella.org/'>Capella</a>. Exchange of architecture models with Capella will be natively supported in SysON."
+            %}
+        </div>
+    </div>
+</section>
+
+<section id="extensibility" class="text-center">
+    <div class="container">
+        {% include block_heading.html
+            title="Enabler for Tailored Native SysML v2 Solutions"
+        %}
+        {% include block_text_image.html
+            desc="Whether you are a <b>large organization</b> with your own modeling methodology and tooling integration constraints, or a <b>software provider</b> distributing state-of-the-art engineering products, you can <b>customize</b> and <b>integrate</b> SysON at multiple levels to meet your specific needs:"
+            
+            img_src="images/illustrations/syson-usage.png"
+            img_alt="SysON Usage"            
+        %}
+        <div class="row">
+            {% include block_cols_text.html
+                col="12"
+                desc="<ul><li><b>Extensibility</b>: SysON supports SysML v2 libraries, offering a standard and non-intrusive way to extend SysML v2. This allows you to define domain-specific (e.g., avionics, automotive, railway) or cross-cutting (e.g., requirements, safety, V&V) concepts.</li><li><b>Interoperability</b>: SysON provides standard APIs to seamlessly connect with other tools. For example, you can exchange models with other SysML v2 tools or delegate service execution to engineering-specific tools (e.g., simulation, verification, code generation).</li><li><b>Customization</b>: SysON is built on <a href='https://eclipse.dev/sirius/sirius-web.html'>Sirius Web</a>, a low-code modeling platform that simplifies the development of custom graphical modeling editors. This enables you to define specific visual representations (e.g., customized shapes and colors for SysML v2 types and properties) tailored to non-SysML v2 audiences.</li></ul>"
+                href="https://www.obeosoft.com/en/syson"
+                link_txt="Contact us to discuss your project"
+                href_icon="fas fa-arrow-alt-circle-right"
             %}
         </div>
     </div>
