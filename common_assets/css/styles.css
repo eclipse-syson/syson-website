@@ -116,6 +116,11 @@ color: #261e58;
 	color: #FBB800;
     background-color: #261e58;
 }
+.btn-sm{
+  font-size: 10px;
+  padding: 7px 14px;
+  letter-spacing: 1px;
+}
 section {
   padding: 40px;
 }
