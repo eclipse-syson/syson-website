@@ -157,7 +157,7 @@ section {
 .bg_indigo p, .bg_indigo h2, .bg_indigo h4 {
   color: #fff;
 }
-.bg_magenta p, .bg_magenta h2, .bg_magenta h4 {
+.bg_magenta p, .bg_magenta h2, .bg_magenta h4, .bg_magenta li {
   color: #fff;
 }
 .vcenter {
