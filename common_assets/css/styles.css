@@ -76,6 +76,12 @@ img.shadow {
 background-color: #fff; 
 color: #261e58;
 }
+.bg_magenta a:hover, #top-bar .main-menu li#dwnld > a:hover {color:#fff;}
+.bg_magenta a:focus {color:#FBB800;}
+.bg_magenta .btn-default:hover {
+background-color: #fff; 
+color: #261e58;
+}
 .btn {
   font-size: 13px;
   font-weight: 700;
@@ -149,6 +155,9 @@ section {
   text-transform: uppercase;
 }
 .bg_indigo p, .bg_indigo h2, .bg_indigo h4 {
+  color: #fff;
+}
+.bg_magenta p, .bg_magenta h2, .bg_magenta h4 {
   color: #fff;
 }
 .vcenter {
@@ -265,6 +274,9 @@ background-color: transparent;
 -----------*/
 .bg_indigo {
 	background: #261e58;
+}
+.bg_magenta {
+	background: #8D3165;
 }
 .bg_yellow {
 	background: #FBB800;
