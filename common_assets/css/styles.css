@@ -679,6 +679,10 @@ margin-top: 20px;
   .title {font-size: 28px;}
   .btn {padding: 8px 18px;}
   .span-right {margin-right: 4px;}
+  iframe {
+      width: 100%;
+  }
+}
 }
 .top-banner{
   padding: 20px 14px 12px 14px;
