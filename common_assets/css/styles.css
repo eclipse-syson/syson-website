@@ -3,7 +3,6 @@ body {
   font-size: 16px;
   color: #777;
   font-weight: 400;
-  padding-top: 80px;
 }
 h1,h2,h3,h4,h5,h6 {
   color: #261e58;
@@ -176,7 +175,7 @@ section {
   color: #fff;
   -webkit-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
-  padding: 15px 0;
+  padding: 13px 0;
   -webkit-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #dedede;
@@ -660,11 +659,6 @@ margin-top: 20px;
     padding-left: 0px;
   }
 }
-@media only screen and (max-width: 1199px) {
-  body {
-    padding-top: 142px !important;
-  }
-}
 @media only screen and (max-width: 991px) {
   .col-md-7 iframe {
     width: 100%;
@@ -687,7 +681,5 @@ margin-top: 20px;
   .span-right {margin-right: 4px;}
 }
 .top-banner{
-  width: 100%;
-  z-index: 100;
   padding: 20px 14px 12px 14px;
 }
