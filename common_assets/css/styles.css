@@ -176,7 +176,7 @@ section {
   color: #fff;
   -webkit-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
-  padding: 13px 0;
+  padding: 15px 0;
   -webkit-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #dedede;
@@ -685,4 +685,9 @@ margin-top: 20px;
   .title {font-size: 28px;}
   .btn {padding: 8px 18px;}
   .span-right {margin-right: 4px;}
+}
+.top-banner{
+  width: 100%;
+  z-index: 100;
+  padding: 12px 14px;
 }
