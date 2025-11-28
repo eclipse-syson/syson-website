@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -683,6 +686,11 @@ margin-top: 20px;
       width: 100%;
   }
 }
-.top-banner{
+
+.top-banner {
   padding: 20px 14px 12px 14px;
+}
+
+#why, #features, #status, #professional-offer, #resources, #extensibility, #community, #roadmap, #leads, #incose_iw {
+  scroll-margin-top: 77px; /* navbar height */
 }
