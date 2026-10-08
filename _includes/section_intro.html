@@ -3,14 +3,14 @@
     <p>{{ include.desc }}</p>
     <p>
         {% if include.href_1 %}
-        <a href="{{ include.href_1 }}" class="btn btn-default span-right wow fadeInUp" data-wow-delay=".6s" target="_{{ include.target_1 }}">
+        <a href="{{ include.href_1 }}" class="btn btn-default mt-4 span-right wow fadeInUp" data-wow-delay=".6s" target="_{{ include.target_1 }}">
             {{ include.btn_txt_1 }}
         </a>
         {% else %}
         <a class="d-none"></a>
         {% endif %}
         {% if include.href_2 %}
-        <a href="{{ include.href_2 }}" class="btn btn-primary wow fadeInUp" data-wow-delay=".6s" target="_{{ include.target_2 }}">
+        <a href="{{ include.href_2 }}" class="btn btn-primary mt-4 wow fadeInUp" data-wow-delay=".6s" target="_{{ include.target_2 }}">
             {{ include.btn_txt_2 }}
         </a>
         {% else %}
