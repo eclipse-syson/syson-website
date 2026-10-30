@@ -153,7 +153,7 @@ section {
   margin-bottom: 18px;
   text-transform: uppercase;
 }
-.bg_magenta p, .bg_magenta h2, .bg_magenta h4, .bg_magenta li {
+.bg_indigo p, .bg_indigo h2, .bg_indigo h4, .bg_magenta p, .bg_magenta h2, .bg_magenta h4, .bg_magenta li {
   color: #fff;
 }
 .vcenter {
