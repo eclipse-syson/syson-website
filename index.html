@@ -224,25 +224,6 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
     </div>
 </section>
 
-
-<section id="status" class="anchor-offset bg_magenta text-center">
-    <div class="container">
-        {% include block_heading.html
-            title="Development Status"
-        %}
-        <div class="row text-left">
-            {% include block_cols_text.html
-                col="6"
-                desc="<p>SysON is under active development and evolving rapidly.</p><p>Our team follows an agile <strong>8-week release cycle</strong>, ensuring steady progress and frequent feature updates and bug fixes.</p><p>As some capabilities are still maturing, features and the user experience may change between releases.</p><p><strong>We are fully committed to making SysON a best-in-class SysML v2 tool.</strong></p>"
-            %}
-            {% include block_cols_text.html
-                col="6"
-                desc="Don’t miss any project updates:<ul><li><a href='#roadmap'>Releases</a>: details about the latest versions.</li><li><a href='#community'>Community</a>: news and discussions.</li><li><a href='#resources'>Resources</a>: articles, videos, documentation.</li></ul>"
-            %}
-        </div>
-    </div>
-</section>
-
 <section id="extensibility">
     <div class="container">
         <h2 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".2s">Flexible by Design: Use it Your Way</h2>
@@ -252,8 +233,11 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
                 <p>SysON is ready to use for editing SysML v2 models <b>out of the box</b>.</p>
                 <p>However, if you are a <b>large organization</b> with specific modeling methodologies and tooling integration constraints, or a <b>software provider</b> delivering cutting-edge engineering solutions, you may need a <b>native</b> SysML v2 modeling environment <b>tailored to your needs</b>.</p>
                 <p>SysON is designed for this, offering flexibility and seamless integration, making it <b>adaptable</b> to your specific requirements or <b>embeddable</b> within another application:</p>
-                <ul><li><b>Extensibility</b>: SysON supports SysML v2 libraries, offering a standard and non-intrusive way to extend SysML v2. This allows you to define domain-specific (e.g., avionics, automotive, railway) or cross-cutting (e.g., requirements, safety, V&amp;V) concepts.</li><li><b>Interoperability</b>: SysON provides standard APIs to seamlessly connect with other tools. For example, you can exchange models with other SysML v2 tools or delegate service execution to engineering-specific tools (e.g., simulation, verification, code generation).</li><li><b>Customization</b>: SysON is built on <a href="https://eclipse.dev/sirius/sirius-web.html">Sirius Web</a>, a low-code modeling platform that simplifies the development of custom graphical modeling editors. This enables you to define specific visual representations (e.g., customized shapes and colors for SysML v2 types and properties) tailored to particular engineering specialists.</li></ul><p><b></b>Examples:</b></p><ul><li><a href="https://blog.obeosoft.com/introducing-methodology-support-for-sysmlv2-with-syson">Introducing Methodology Support for SysMLv2 With SysON</a></li>
-		<li><a href="https://blog.obeosoft.com/ai-integrated-as-an-mbse-modeling-assistant-in-syson">AI integrated as an MBSE modeling assistant in SysON</a></li></ul>
+                <ul><li><b>Extensibility</b>: SysON supports SysML v2 libraries, offering a standard and non-intrusive way to extend SysML v2. This allows you to define domain-specific (e.g., avionics, automotive, railway) or cross-cutting (e.g., requirements, safety, V&amp;V) concepts.</li><li><b>Interoperability</b>: SysON provides standard APIs to seamlessly connect with other tools. For example, you can exchange models with other SysML v2 tools or delegate service execution to engineering-specific tools (e.g., simulation, verification, code generation).</li><li><b>Customization</b>: SysON is built on <a href="https://eclipse.dev/sirius/sirius-web.html">Sirius Web</a>, a low-code modeling platform that simplifies the development of custom graphical modeling editors. This enables you to define specific visual representations (e.g., customized shapes and colors for SysML v2 types and properties) tailored to particular engineering specialists.</li></ul><p><b></b>
+					Examples:</b></p><ul>
+					<li><a href="https://blog.obeosoft.com/introducing-methodology-support-for-sysmlv2-with-syson">Introducing Methodology Support for SysMLv2 With SysON</a></li>
+					<li><a href="https://blog.obeosoft.com/extending-syson-for-domain-specific-engineering-rte-s-experience-with-cybergridml-1">Extending SysON for Domain-Specific Engineering: RTE’s Experience with CyberGridML</a></li>
+					<li><a href="https://blog.obeosoft.com/ai-integrated-as-an-mbse-modeling-assistant-in-syson">AI integrated as an MBSE modeling assistant in SysON</a></li></ul>
             </div>
             <div class="col-md-5 popup-gallery text-center  wow fadeInUp" data-wow-delay=".2s">
                 <img src="images/illustrations/syson-usage.png" class="" width="80%">
@@ -280,7 +264,7 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
                     <img class="card-img-top" src="images/illustrations/syson-enterprise.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Obeo Enterprise for SysON</h5>
-                        <p class="card-text">Alongside the open source development of SysON, Obeo is working on advanced commercial features to support cutting-edge deployments for large-scale and/or mission-critical projects.</p>
+                        <p class="card-text">Obeo Enterprise for SysON is a professional offering built on top of SysON. It enhances SysON with enterprise features: Security & Permissions, Team Collaboration, Project Lifecycle Management.</p>
                         <a href="https://www.obeosoft.com/en/products/obeo-enterprise-for-syson/" class="btn btn-default btn-sm">Learn more </a>
                     </div>
                 </div>
@@ -297,7 +281,27 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
     </div>
 </section>
 
-<section id="roadmap" class="anchor-offset text-center">
+<section id="capella-for-syson">
+    <div class="container">
+        <h2 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".2s">Capella for SysON</h2>
+		<h3 class="text-center">SysML v2 with a Field-Proven Engineering Method</h3>
+
+        <div class="row">
+            <div class="col-md-6  wow fadeInLeft" data-wow-delay=".1s">
+                <p>SysML v2 provides a powerful language for systems modeling.</p>
+				<p>But a modeling language alone does not tell engineers how to structure their engineering activities or approach complex system architectures.</p>
+				<p><b>Capella for SysON</b> is an open-source extension that brings the Arcadia methodology, proven through years of industrial use, to the SysML v2 ecosystem.</p>
+				<p>By combining Arcadia's structured engineering approach with Capella-inspired graphical representations, it guides engineers through dedicated modeling activities, exposing the concepts and tools relevant to each stage of system design.</p>
+				<p><b>The result</b>: the power and interoperability of SysML v2, with the methodological guidance needed to make modeling <b>more accessible, consistent, and scalable</b>.</p>
+            </div>
+            <div class="col-md-6 text-center  wow fadeInUp" data-wow-delay=".2s">
+                <img src="images/screenshots/capella-for-syson-diagram.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="roadmap" class="anchor-offset text-center bg_lightest_grey">
     <div class="container">
         {% include block_heading.html
             title="Roadmap"
@@ -317,7 +321,7 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
                 icon_name="fa fa-industry"
                 icon_color="txt_indigo"
                 title="Industrial Collaborations"
-                desc="Expanding industrial collaborations, via an Early Adopter Program, to prepare for deployment and usage in operational contexts in 2026."
+                desc="Working with industrial partners to enable the large-scale adoption and deployment of SysON in demanding engineering environments."
             %}
             {% include block_cols.html
                 col="4"
@@ -334,6 +338,25 @@ excerpt: Edit SysMLv2 models with an open-source and web-based modeling tool.
         </div>
     </div>
 </section>
+
+<section id="status" class="anchor-offset bg_magenta text-center">
+    <div class="container">
+        {% include block_heading.html
+            title="Development Status"
+        %}
+        <div class="row text-left">
+            {% include block_cols_text.html
+                col="6"
+                desc="<p>SysON is under active development and evolving rapidly.</p><p>Our team follows an agile <strong>8-week release cycle</strong>, ensuring steady progress and frequent feature updates and bug fixes.</p><p>As some capabilities are still maturing, features and the user experience may change between releases.</p><p><strong>We are fully committed to making SysON a best-in-class SysML v2 tool.</strong></p>"
+            %}
+            {% include block_cols_text.html
+                col="6"
+                desc="Don’t miss any project updates:<ul><li><a href='#roadmap'>Releases</a>: details about the latest versions.</li><li><a href='#community'>Community</a>: news and discussions.</li><li><a href='#resources'>Resources</a>: articles, videos, documentation.</li></ul>"
+            %}
+        </div>
+    </div>
+</section>
+
 
 <section id="community" class="anchor-offset text-center bg_indigo">
     <div class="container">
