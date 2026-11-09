@@ -1,8 +1,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="canonical" href="https://mbse-syson.org/">
-    <title>{{ page.title }}</title>
+	<link rel="canonical" href="{{ page.url | absolute_url }}">
+	<title>{{ page.title }}</title>
 
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="shortcut icon" type="image/png" href="{{  site.baseurl }}/images/logos/favicon_syson.ico"/>
